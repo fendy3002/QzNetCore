@@ -16,7 +16,7 @@ namespace QzNetCore
         }
 
         public string Uuid(){
-            return null;
+            return Guid.NewGuid().ToString().Replace("-", "");
         }
         
     }
